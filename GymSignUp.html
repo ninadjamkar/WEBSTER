@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        .navbar-nav {
+            font-size: large;
+        }
+
+        .nav-item {
+            text-transform: uppercase;
+            padding: 5px;
+        }
+
+        .nav-link:hover {
+            color: coral;
+        }
+
+        .btn-1 {
+            border: 3px solid coral;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(187, 187, 187);
+
+        }
+
+        .container {
+            border: 1px solid rgb(255, 255, 255);
+            margin-left: 72px;
+            background-image: linear-gradient(rgba(0, 0, 30, 0.7), rgba(0, 0, 30, 0.7)) url(https://images4.alphacoders.com/640/640956.jpg);
+            height: 700px;
+
+            width: 1700px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #item2 {
+            border: 1px solid black;
+            background-color: beige;
+            width: 400px;
+            height: 500px;
+            margin-top: 20px;
+            border-radius: 8px;
+
+
+        }
+
+        .alert {
+            text-align: center;
+        }
+
+        #item1 {
+            margin-top: 20px;
+        }
+
+        #item3 {
+            margin-top: 20px;
+        }
+
+        #username {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #password {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #btn5 {
+            border: 3px solid coral;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(187, 187, 187);
+            text-align: center;
+            width: 120px;
+            height: 50px;
+        }
+
+        #btn5:hover {
+            color: coral;
+            background-color: rgb(46, 44, 44);
+        }
+
+        .input {
+            width: 350px;
+            border: 2px solid coral;
+            border-radius: 5px;
+            text-decoration: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 25px;
+            font-size: large;
+
+        }
+
+        #select {
+            width: 350px;
+            border: 2px solid coral;
+            border-radius: 5px;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 25px;
+            font-size: large;
+        }
+
+        #btn {
+            text-align: center;
+            border: 3px solid coral;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(187, 187, 187);
+            margin-left: 140px;
+        }
+
+        #btn:hover {
+            color: coral;
+            background-color: rgb(46, 44, 44);
+        }
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid px-5">
+            <img src="https://design.cult.fit/wp-content/uploads/2022/07/Screenshot-2022-07-01-at-12.50.32-PM.png"
+                height="50" width="150">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="gym.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="gym.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our branches
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                            <li><a class="dropdown-item" href="#">Nephrology</a></li>
+                            <li><a class="dropdown-item" href="#">Dermatology</a></li>
+                            <li><a class="dropdown-item" href="#">Orthopedics</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn1 btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="alert alert-dark" role="alert">
+        <h3>Cult Fit - Sign Up / Login</h3>
+    </div>
+
+    <div class="container">
+        <div class="items" id="item1">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a16a83d4-2f0c-4c72-823d-9721ee226abd/d2elhgd-ee6530d9-9344-48e4-a958-b2ac99bbefec.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExNmE4M2Q0LTJmMGMtNGM3Mi04MjNkLTk3MjFlZTIyNmFiZFwvZDJlbGhnZC1lZTY1MzBkOS05MzQ0LTQ4ZTQtYTk1OC1iMmFjOTliYmVmZWMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._oclvy46Z4pmMvH-DDE6lKW9XZvPNDUrbEbu151H-iE"
+                width="350px" height="500px" alt="">
+        </div>
+        <div class="items" id="item2">
+
+            <br>
+            <div class="form">
+                <input class="input" type="text" id="name" name="name" placeholder="Enter your name">
+                <br>
+                <br>
+                <input class="input" type="number" id="age" name="age" placeholder="Enter your age">
+                <br>
+                <br>
+                <input class="input" type="date" id="DOB" name="DOB" placeholder="Enter your DOB">
+                <br>
+                <br>
+                <select name="gender" id="select">
+                    <option value="gender">Enter your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Third gender">Third gender</option>
+                </select>
+                <br>
+                <br>
+                <input class="input" type="number" id="phn" name="phn" placeholder="Enter your phone number">
+                <br>
+                <br>
+                <input class="input" type="email" id="email" name="email" placeholder="Enter you Email ID">
+                <br>
+                <br>
+                <select name="plan" id="select">
+                    <option value="plan">choose your plan</option>
+                    <option value="1st">25$ / 1 month</option>
+                    <option value="2nd">65$ / 3 months</option>
+                    <option value="3rd">125$ / 6 months</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                
+                <button type="submit" class="btn" id="btn">Join Now</button>
+            </div>
+
+        </div>
+        <div class="items" id="item3">
+            <img src="https://wallpapercave.com/wp/wp11219600.jpg" width="330px" height="500px" alt="">
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
